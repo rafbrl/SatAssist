@@ -1,0 +1,14 @@
+S,1000.,land
+T,1000.,land
+A,0.,land
+B,0.,land
+C,0.,land
+D,0.,land
+E,0.,land
+Y,0.,land
+X,0.,land
+Z,0.,land
+K,5.,sat
+L,5.,sat
+M,1.,sat
+N,0.,sat
