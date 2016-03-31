@@ -42,7 +42,6 @@ import org.jgrapht.alg.interfaces.MaximumFlowAlgorithm.MaximumFlow;
 import org.orekit.time.AbsoluteDate;
 import org.orekit.utils.PVCoordinates;
 
-
 public class SatelliteAssistance extends JApplet { 
 	private static final long serialVersionUID = 1L;
 	static final Charset charset = Charset.forName("US-ASCII");
@@ -301,9 +300,6 @@ public class SatelliteAssistance extends JApplet {
 			while ((line = readerStations.readLine()) != null) {
 				String[] station = line.split(",");
 				
-				//ctcList.clear();
-				//System.out.println(line);
-				//ctcList = VisibilityCheck.getContactList(station[0], 
 				ctcList.addAll(VisibilityCheck.getContactList(station[0],
 						FastMath.toRadians(Double.valueOf(station[1])),
 						FastMath.toRadians(Double.valueOf(station[2])),
